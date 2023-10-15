@@ -8,10 +8,11 @@
 #[allow(unused_variables, unused_assignments)]
 fn main() {
     let my_option: Option<()> = None;
-    if let Some(value) = my_option{
+    if let Some(value) = my_option {
         my_option.unwrap();
+    } else {
+        
     }
-
     let my_arr = &[
         -1, -2, -3,
         -4, -5, -6
